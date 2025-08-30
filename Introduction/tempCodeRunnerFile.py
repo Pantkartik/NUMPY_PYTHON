@@ -1,9 +1,6 @@
-list_temp=[35.6,56,51.9,90.0,12.4]
+import numpy as np
 
-# lets find the average of the list 
-total=0
-for temp in list_temp:
-    total+=temp
-    avg=total/len(list_temp)
-    
-    print(avg)
+list=np.array([1,2,3])
+list_python=[1,2,3]
+print(list)
+print(list_python)
