@@ -2,5 +2,6 @@
 
 import numpy as np 
 
-list_zero = np.zeros((2,4,3,2))
+list_zero = np.zeros((2,4))
 print(list_zero)
+

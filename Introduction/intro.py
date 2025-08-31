@@ -9,3 +9,10 @@ for temp in list_temp:
     total+=temp
 avg=total/len(list_temp)
 print(avg)
+
+
+
+'''
+numpy works on the array where we use array to visulize the array 
+
+'''
