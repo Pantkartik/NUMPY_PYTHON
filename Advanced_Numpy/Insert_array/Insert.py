@@ -15,14 +15,10 @@ axis = 1,column wise
 
 '''
 
+#  to insert the element in an numpy array
 import numpy as np 
 
-array=np.array([1,2,3])
-array_insert=np.insert(array,2,5,axis=None)
-print(array_insert)
-
-
-# for 2 d array
-array_insert_2d=np.insert(array,1,[5,6,7],axis=1)
-print(array_insert_2d)
+array=np.array([[1,2,3],[4,5,6]])
+array_inserted=np.insert(array,2,[[4,5,6]],axis=0)
+print(array_inserted)
 
