@@ -17,3 +17,24 @@ for price in price:
     final_prices.append(final_price)
 
 print(final_prices)
+
+
+
+'''
+we do this above with broadcasting 
+
+
+#  get rid of for loop 
+#  fast efficient codeing 
+
+'''
+
+import numpy as np 
+
+price =np.array([10,20,30,40,50,60,70,80,90,100])
+
+discount=10
+
+price_after_discount=price-(price*discount/100)
+
+print(price_after_discount)
