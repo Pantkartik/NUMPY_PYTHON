@@ -38,3 +38,27 @@ discount=10
 price_after_discount=price-(price*discount/100)
 
 print(price_after_discount)
+
+
+
+'''
+Rules of broadcasting 
+
+1. Matching dimensions
+   if the dimension of array 1 and 2 are same then the mathmatical operation will be applied
+   
+2. Expanding the elements
+   if there is mathmatical operation in 2 array of different dimensions then the lowest dimension array element will perform the task with each element of other array 
+   
+3. Incompatible shapes
+    the shape of array should me same 
+    
+    
+    
+    
+
+'''
+
+
+
+
