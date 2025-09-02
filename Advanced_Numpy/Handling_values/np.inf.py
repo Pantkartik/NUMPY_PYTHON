@@ -17,5 +17,7 @@ print(np.isinf(array_1))
 
 # for replacing the infinite to num 
 
-array_2=np.nan_to_num(array_1,posinf=1000,neginf=-1000)
+array_2=np.nan_to_num(array_1,posinf=1000,neginf=-1000)   
+
+# replace by 1000
 print(array_2)

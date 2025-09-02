@@ -17,3 +17,9 @@ import numpy as np
 
 array=np.array([1,2,np.nan,5,np.nan])
 print(np.isnan(array))
+
+
+# can we compare nan value ? 
+'''
+no we cant compare the nan values 
+'''
